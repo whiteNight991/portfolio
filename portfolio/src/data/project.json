@@ -1,0 +1,65 @@
+{
+    "DesignData": [
+        {
+            "id": 1,
+            "title": "몽돌해변 옥외광고 디자인",
+            "description": "이 프로젝트는 제주 옥외광고 대상전에서 입상한 작품입니다. 이 작품이 되는 배경은 제주도시에 있는 제주 몽돌해변입니다.",
+            "skill": ["illustrator, photoshop, Ai-tool"],
+            "image": "/img/mondol.jpg"
+        },
+        {
+            "id": 2,
+            "title": "폴리텍 손글씨 디자인",
+            "description": "이 프로젝트는 폴리텍대학교에서 진행한 디자인 프로젝트입니다. 이 프로젝트는 폴리텍대학교의 손글씨를 디자인한 것입니다.",
+            "skill": ["illustrator, photoshop"],
+            "image": "/img/손글씨.png"
+        }
+    ],
+     "FrontData": [
+        {
+            "id": 1,
+            "title": "Ai_Speak",
+            "description": "이 프로젝트는 ai를 이용한 음성과 입모양 동작인식을 통해 사용자가 학습할 수 있는 웹사이트(프로그램)입니다.",
+            "image": "/img/img_ai_speak.png",
+            "stack": ["html", "css"],
+            "link": "https://whitenight991.github.io/Ai_Speak/",
+            "github": "https://github.com/whiteNight991/Ai_Speak.git"
+        },
+        {
+            "id": 2,
+            "title": "데이터_분석",
+            "description": "스크랩기능을 사용하여 여러 사이트에서 데이터를 수집하고 이를 분석하여 시각화하는 프로젝트입니다.",
+            "image": "/img/analyze.png",
+            "stack": ["python, streamlit"],
+            "link": "https://2439110003kys.streamlit.app/",
+            "github": "https://github.com/whiteNight991/stream-analytics-dashboard.git"
+        },
+        {
+            "id": 3,
+            "title": "weather-app",
+            "description": "이 프로젝트는 OpenWeatherMap API를 이용한 날씨 앱입니다.",
+            "image": "/img/analyze.png",
+            "stack": ["react"],
+            "link": "",
+            "github": ""
+        }
+     ],
+     "BackData": [
+        {
+            "id": 1,
+            "title": "back_project_1",
+            "description": "This is the first back-end project.",
+            "image": "back1.png",
+            "stack": [],
+            "github": ""
+        },
+        {
+            "id": 2,
+            "title": "back_project_2",
+            "description": "This is the second back-end project.",
+            "image": "back2.png",
+            "stack": [],
+            "github": ""
+        }
+     ]
+}
