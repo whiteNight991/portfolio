@@ -47,7 +47,7 @@ function Front() {
               "
             >
               <img
-                src={item.image}
+                src={`${import.meta.env.BASE_URL}${(item.image || '').replace(/^\//, '')}`}
                 className="w-full h-64 object-cover mb-6 rounded-2xl shadow-sm"
               />
               <h3 className="text-xl font-semibold">{item.title}</h3>
@@ -80,7 +80,7 @@ function Front() {
 
             <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
               <img
-                src={selected.image}
+                src={`${import.meta.env.BASE_URL}${(selected.image || '').replace(/^\//, '')}`}
                 className="w-full h-80 object-cover rounded-2xl shadow"
               />
 

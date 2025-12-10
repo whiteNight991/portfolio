@@ -70,7 +70,7 @@ function AboutMe() {
         {!loading && (
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center animate-fadeIn">
             {/* 이미지 */}
-            <img src="/img/profile.png" alt="profile" className="w-full h-full object-cover"/>
+            <img src={`${import.meta.env.BASE_URL}img/profile.png`} alt="profile" className="w-full h-full object-cover"/>
 
             {/* 텍스트 */}
             <div className="text-amber-800 space-y-6">

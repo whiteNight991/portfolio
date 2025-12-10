@@ -53,7 +53,7 @@ export default function Design() {
               "
             >
               <img
-                src={item.image}
+                src={`${import.meta.env.BASE_URL}${(item.image || '').replace(/^\//, '')}`}
                 alt={item.title}
                 className="w-full h-64 object-cover mb-6 rounded-2xl shadow-sm"
               />
@@ -87,7 +87,7 @@ export default function Design() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <img
-                src={selected.image}
+                src={`${import.meta.env.BASE_URL}${(selected.image || '').replace(/^\//, '')}`}
                 className="w-full h-80 object-cover rounded-2xl shadow"
               />
               <div>
