@@ -1,11 +1,11 @@
 import React, { useEffect, useRef } from "react";
 import AboutMe from "./component/aboutMe.jsx";
-import Contact from "./component/Contact.jsx";
+import Contact from "./component/contact.jsx";
 import Design from "./component/Design.jsx";
 import Front from "./component/front.jsx";
 import Nav from "./component/nav.jsx";
 import Hero from "./component/HeroSection.jsx";
-import Timeline from "./component/timeline.jsx";
+import Timeline from "./component/Timeline.jsx";
 
 function App() {
   const fullpageRef = useRef(null);
